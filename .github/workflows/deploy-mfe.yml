@@ -33,12 +33,12 @@ jobs:
 
       - name: Build Angular MFE
         run: |
-          npm run build -- --base-href=/farm-operations/
+          npm run build -- --base-href=/farmOperations/
 
       - name: Create .nojekyll File
         run: |
-          touch dist/farmOperations/.nojekyll
-          touch dist/farmOperations/browser/.nojekyll || true
+          touch dist/farm-operations-mfe/.nojekyll
+          touch dist/farm-operations-mfe/browser/.nojekyll || true
 
       - name: Verify build output
         run: |
@@ -49,5 +49,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/farmOperations
+          folder: dist/farm-operations-mfe/browser
           clean: true
