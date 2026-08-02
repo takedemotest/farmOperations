@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "@angular/core": "_angular_core.84WBn4-UqZ.js",
+    "@angular/core/primitives/di": "_angular_core_primitives_di.W9cbIVFC3c.js",
+    "@angular/core/primitives/signals": "_angular_core_primitives_signals.URnXCFVkb6.js",
+    "rxjs": "rxjs.OmqFGSEpPT.js",
+    "rxjs/operators": "rxjs_operators.Q7SXB0StdO.js",
+    "tslib": "tslib.kV7_nIcaWL.js",
+    "@nf-internal/chunk-G6Y3NUQW": "chunk-G6Y3NUQW.js",
+    "@nf-internal/chunk-FSFAE23Q": "chunk-FSFAE23Q.js",
+    "@nf-internal/chunk-KNUKVBCT": "chunk-KNUKVBCT.js",
+    "@nf-internal/chunk-PZNONLPT": "chunk-PZNONLPT.js"
+  }
+}
