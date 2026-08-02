@@ -4,7 +4,7 @@
   "shared": [
     {
       "packageName": "@angular/core",
-      "outFileName": "_angular_core.84WBn4-UqZ.js",
+      "outFileName": "_angular_core.UEvZy4PyZC-dev.js",
       "requiredVersion": "^22.0.0",
       "singleton": true,
       "strictVersion": true,
@@ -13,7 +13,7 @@
     },
     {
       "packageName": "@angular/core/primitives/di",
-      "outFileName": "_angular_core_primitives_di.W9cbIVFC3c.js",
+      "outFileName": "_angular_core_primitives_di.omp9BX9qiy-dev.js",
       "requiredVersion": "^22.0.0",
       "singleton": true,
       "strictVersion": true,
@@ -22,7 +22,7 @@
     },
     {
       "packageName": "@angular/core/primitives/signals",
-      "outFileName": "_angular_core_primitives_signals.URnXCFVkb6.js",
+      "outFileName": "_angular_core_primitives_signals.oQ0mKcE28g-dev.js",
       "requiredVersion": "^22.0.0",
       "singleton": true,
       "strictVersion": true,
@@ -31,7 +31,7 @@
     },
     {
       "packageName": "rxjs",
-      "outFileName": "rxjs.OmqFGSEpPT.js",
+      "outFileName": "rxjs.omF8cctZa--dev.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -40,7 +40,7 @@
     },
     {
       "packageName": "rxjs/operators",
-      "outFileName": "rxjs_operators.Q7SXB0StdO.js",
+      "outFileName": "rxjs_operators.OcRBnzTHKk-dev.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -49,7 +49,7 @@
     },
     {
       "packageName": "tslib",
-      "outFileName": "tslib.kV7_nIcaWL.js",
+      "outFileName": "tslib.7YgP4a2J94-dev.js",
       "requiredVersion": "^2.3.0",
       "singleton": true,
       "strictVersion": true,
@@ -60,19 +60,26 @@
   "exposes": [
     {
       "key": "./fieldsModule",
-      "outFileName": "fieldsModule-XN4ML5NJ.js"
+      "outFileName": "fieldsModule.js",
+      "dev": {
+        "entryPoint": "/mnt/workspace/farm-operations-mfe/src/app/fields-component/fields-component.ts"
+      }
     },
     {
       "key": "./cropModule",
-      "outFileName": "cropModule-HMEDGH7L.js"
+      "outFileName": "cropModule.js",
+      "dev": {
+        "entryPoint": "/mnt/workspace/farm-operations-mfe/src/app/crop-component/crop-component.ts"
+      }
     }
   ],
+  "buildNotificationsEndpoint": "/@angular-architects/native-federation:build-notifications",
   "chunks": {
     "browser-shared": [
-      "chunk-G6Y3NUQW.js",
-      "chunk-FSFAE23Q.js",
-      "chunk-KNUKVBCT.js",
-      "chunk-PZNONLPT.js"
+      "chunk-VFV7Y3ES.js",
+      "chunk-P4JZNWNQ.js",
+      "chunk-BBYK5H6S.js",
+      "chunk-FMGVFGPW.js"
     ],
     "mapping-or-exposed": []
   }

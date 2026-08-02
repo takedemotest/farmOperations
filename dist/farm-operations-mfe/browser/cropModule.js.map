@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/app/crop-component/crop-component.ts", "../../../src/app/crop-component/crop-component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-crop-component',\n  imports: [],\n  templateUrl: './crop-component.html',\n  styleUrl: './crop-component.scss',\n})\nexport class CropComponent {}\n", "<p>crop-component works!</p>\n"],
+  "mappings": ";AAAA,SAAS,iBAAiB;;AAQpB,IAAO,gBAAP,MAAO,eAAa;;qCAAb,gBAAa;EAAA;4EAAb,gBAAa,WAAA,CAAA,CAAA,oBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,uBAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACR1B,MAAA,+BAAA,GAAA,GAAA;AAAG,MAAA,oBAAA,GAAA,uBAAA;AAAqB,MAAA,6BAAA;;;;;+EDQX,eAAa,CAAA;UANzB;uBACW,sBAAoB,SACrB,CAAA,GAAE,UAAA,iCAAA,CAAA;;;;gFAIA,eAAa,EAAA,WAAA,iBAAA,UAAA,4CAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}
