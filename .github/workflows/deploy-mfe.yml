@@ -34,7 +34,7 @@ jobs:
 
       - name: Build Angular MFE
         run: |
-          npm run build -- --base-href=/farmOperations/
+          npm run build -- --base-href=/farm-operations/
 
       - name: Create .nojekyll File
         run: |
